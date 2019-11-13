@@ -1,0 +1,42 @@
+.login-form {
+  max-width: 300px;
+ 
+}
+.login-form-forgot {
+  float: right;
+  color: #1890ff !important;
+}
+
+.login-form-button {
+  width: 100%;
+ 
+}
+.container {
+  top:50%;
+  left:50%;
+  position:absolute;
+  margin-top:-150px;
+  margin-left:-150px;
+}
+
+
+.top {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.header {
+  height: 44px;
+  line-height: 44px;
+ 
+}
+.logo {
+  height: 44px;
+  margin-right: 16px;
+}
+.title {
+  position: relative;
+  font-weight: 600;
+  font-size: 33px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
