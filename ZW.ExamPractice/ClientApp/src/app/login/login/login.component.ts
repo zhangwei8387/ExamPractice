@@ -24,6 +24,7 @@ export class LoginComponent implements OnInit {
     userLoginInfo.UserName = this.validateForm.controls['userName'].value;
     userLoginInfo.PassWord = this.validateForm.controls['password'].value;
     this.authService.login(userLoginInfo).subscribe(result => {
+      console.log(result);
       if (this.authService.isLoggedIn) {
         this.router.navigate(['layout']);
       } else {
