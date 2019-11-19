@@ -12,16 +12,23 @@
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
+      <li nz-submenu nzOpen nzTitle="题库练习" nzIcon="dashboard">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="./welcome">Welcome</a>
+            <a routerLink="./welcome">选择题</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="./test">Test</a>
+            <a routerLink="./test">填空题</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
+            <a>简答题</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="模拟测验" nzIcon="form">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="./welcome">试卷练习</a>
           </li>
         </ul>
       </li>
